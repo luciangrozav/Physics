@@ -4,7 +4,7 @@ public class Planet {
 
     String name;
     int positionfromstar;
-    int timeperiod;
+    double timeperiod;
 
     public String getName() {
         return name;
@@ -22,11 +22,11 @@ public class Planet {
         this.positionfromstar = positionfromstar;
     }
 
-    public int getTimeperiod() {
+    public double getTimeperiod() {
         return timeperiod;
     }
 
-    public void setTimeperiod(int timeperiod) {
+    public void setTimeperiod(double timeperiod) {
         this.timeperiod = timeperiod;
     }
 }

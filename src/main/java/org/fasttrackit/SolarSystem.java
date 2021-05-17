@@ -9,6 +9,10 @@ public class SolarSystem {
         planet1.setName("Earth");
         planet1.setPositionfromstar(3);
         planet1.setTimeperiod(31449600); // seconds per year
+
+        System.out.println(" ");
+        System.out.println("Name of the planet: " + planet1.getName());
+        System.out.println("Number of planet from center star: " + planet1.getPositionfromstar() );
     }
 
     public void start()
@@ -17,34 +21,30 @@ public class SolarSystem {
         elipticalorbit(planet1.getTimeperiod());
     }
 
-    public void elipticalorbit(int timeperiod)  // Axis length
+    private void elipticalorbit(double timeperiod)  // Axis length
     {
         double axislength;
-        axislength = squarerootbase( 125 , 3);  // meters
-        System.out.println(" The eliptical orbital axis length is: " + axislength);
+        axislength = squarerootbase3(2* timeperiod * timeperiod);  // meters
+        System.out.println(2* timeperiod * timeperiod);
+        System.out.println("The eliptical orbital axis length is: " + axislength/1000);
 
     }
 
-    private double squarerootbase(int number, int base)
+    private double squarerootbase3(double number)
     {
         double i=1;
-        int j=1;
+        double j=1;
 
         if (number==0 || number==1)
             return number;
 
-        while(i!=number)
-            {
-                i+=0.1;
+        while(j<number)
+        {
+            j=i*i*i;
+            i++;
+        }
 
-                while(j<=base)
-                {
-                    i*=i;
-                    j++;
-                }
-
-            }
-    return i;
+    return i-1;
     }
 
 
