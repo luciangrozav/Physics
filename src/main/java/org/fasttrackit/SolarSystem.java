@@ -8,7 +8,7 @@ public class SolarSystem {
     {
         planet1.setName("Earth");
         planet1.setPositionfromstar(3);
-        planet1.setTimeperiod(31449600); // seconds per year
+        planet1.setTimeperiod(8736); // hours per year
 
         System.out.println(" ");
         System.out.println("Name of the planet: " + planet1.getName());
@@ -23,10 +23,10 @@ public class SolarSystem {
 
     private void elipticalorbit(double timeperiod)  // Axis length
     {
+        double number = 2* timeperiod * timeperiod;
         double axislength;
-        axislength = squarerootbase3(2* timeperiod * timeperiod);  // meters
-        System.out.println(2* timeperiod * timeperiod);
-        System.out.println("The eliptical orbital axis length is: " + axislength/1000);
+        axislength = squarerootbase3(number);  // 3rd law of Johannes Kepler
+        System.out.println("The eliptical orbital axis length is: " + axislength);
 
     }
 
@@ -43,8 +43,9 @@ public class SolarSystem {
             j=i*i*i;
             i++;
         }
+        i-=1;
 
-    return i-1;
+    return i;
     }
 
 
