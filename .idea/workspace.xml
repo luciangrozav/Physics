@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="858cbeae-482d-4fbf-ac90-775dec6ed7ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/squareroot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/PhysicalLaws.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/SolarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/SolarSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621249499870</updated>
       <workItem from="1621249501015" duration="4491000" />
-      <workItem from="1621325223867" duration="3408000" />
+      <workItem from="1621325223867" duration="5906000" />
     </task>
     <task id="LOCAL-00001" summary="method1;">
       <created>1621253966379</created>
@@ -103,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621253966379</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="method1; implemented">
+      <created>1621328926756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621328926756</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="method1;" />
-    <option name="LAST_COMMIT_MESSAGE" value="method1;" />
+    <MESSAGE value="method1; implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="method1; implemented" />
   </component>
 </project>

@@ -8,6 +8,10 @@ public class App
 
         SolarSystem game = new SolarSystem();
         game.start();
+        System.out.println(" ");
+
+        PhysicalLaws snell = new PhysicalLaws();
+        snell.start();
 
     }
 }
