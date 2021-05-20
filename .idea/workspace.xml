@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="858cbeae-482d-4fbf-ac90-775dec6ed7ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/PhysicsMethodInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/PhysicalLaws.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/PhysicalLaws.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Planet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Practice" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -65,17 +64,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
@@ -93,7 +81,8 @@
       <updated>1621249499870</updated>
       <workItem from="1621249501015" duration="4491000" />
       <workItem from="1621325223867" duration="6050000" />
-      <workItem from="1621417593260" duration="2922000" />
+      <workItem from="1621417593260" duration="3072000" />
+      <workItem from="1621497374509" duration="1716000" />
     </task>
     <task id="LOCAL-00001" summary="method1;">
       <created>1621253966379</created>
@@ -116,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621338700435</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New methods implemented (new physical laws).">
+      <created>1621422315101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621422315101</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +122,7 @@
     <MESSAGE value="method1;" />
     <MESSAGE value="method1; implemented" />
     <MESSAGE value="Added physical laws;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added physical laws;" />
+    <MESSAGE value="New methods implemented (new physical laws)." />
+    <option name="LAST_COMMIT_MESSAGE" value="New methods implemented (new physical laws)." />
   </component>
 </project>

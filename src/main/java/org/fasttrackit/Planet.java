@@ -2,9 +2,9 @@ package org.fasttrackit;
 
 public class Planet {
 
-    String name;
-    int positionfromstar;
-    double timeperiod;
+    private String name;  // Encapsulation used => private data
+    private int positionfromstar;
+    private double timeperiod;
 
     public String getName() {
         return name;
