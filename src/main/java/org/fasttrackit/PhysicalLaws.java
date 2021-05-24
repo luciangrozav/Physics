@@ -22,6 +22,7 @@ public class PhysicalLaws implements PhysicsMethodInterface {
 
         wavelength();
         Braggslaw();
+        Faradayslaw();
 
     }
 
@@ -47,7 +48,7 @@ public class PhysicalLaws implements PhysicsMethodInterface {
         lambda = lightspeed/frequency;
 
         System.out.println(" ");
-        System.out.println("Wavelength = " + lambda);
+        System.out.println("Wavelength = " + lambda + "meters");
     }
 
     public void Braggslaw()
@@ -77,6 +78,27 @@ public class PhysicalLaws implements PhysicsMethodInterface {
 
         System.out.println(" ");
         System.out.println("The distance between the atoms in the crystal structure is: " + distance);
+
+    }
+
+    public void Faradayslaw()
+    {
+        System.out.println(" ");
+        System.out.println("The law of electromagnetic induction phenomenon!");
+
+        double inducedvoltage=0;
+        int numberofloops=0;
+        double magneticflux=0;
+
+        System.out.println("Number of wire loops: ");
+        numberofloops= scanner.nextInt();
+
+        System.out.println("Change in magnetic flux: ");
+        magneticflux = scanner.nextDouble();
+
+        inducedvoltage= numberofloops * magneticflux;
+
+        System.out.println("The voltage induced in the device is: " + inducedvoltage + " Volts");
 
     }
 
