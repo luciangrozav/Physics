@@ -84,7 +84,8 @@
       <workItem from="1621325223867" duration="6050000" />
       <workItem from="1621417593260" duration="3072000" />
       <workItem from="1621497374509" duration="1747000" />
-      <workItem from="1621851008594" duration="2997000" />
+      <workItem from="1621851008594" duration="3065000" />
+      <workItem from="1621946195707" duration="2367000" />
     </task>
     <task id="LOCAL-00001" summary="method1;">
       <created>1621253966379</created>
@@ -121,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621501738904</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Theory added + java fundamentals;">
+      <created>1621855954651</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621855954651</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +141,7 @@
     <MESSAGE value="Added physical laws;" />
     <MESSAGE value="New methods implemented (new physical laws)." />
     <MESSAGE value="Theory added;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Theory added;" />
+    <MESSAGE value="Theory added + java fundamentals;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Theory added + java fundamentals;" />
   </component>
 </project>

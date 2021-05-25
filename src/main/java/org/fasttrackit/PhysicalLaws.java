@@ -23,6 +23,11 @@ public class PhysicalLaws implements PhysicsMethodInterface {
         wavelength();
         Braggslaw();
         Faradayslaw();
+        int n;
+        System.out.println(" ");
+        System.out.println("Choose an Maxwell equation (1, 2, 3 or 4) :");
+        n = scanner.nextInt();
+        MaxwellLaw(n);
 
     }
 
@@ -100,6 +105,19 @@ public class PhysicalLaws implements PhysicsMethodInterface {
 
         System.out.println("The voltage induced in the device is: " + inducedvoltage + " Volts");
 
+    }
+
+    public void MaxwellLaw(int n)
+    {
+        if(n==1)
+            System.out.println("I- Gauss law: dD = P -> gives information about the shape and intensity of the electric field, generated" +
+                    "by an electric potential");
+        if(n==2)
+            System.out.println("II- Gauss law in magnetism: dB = 0 -> the shape of the magnetic field is always an closed loop");
+        if (n==3 || n==4)
+            System.out.println("III and IV laws are related, they both refer to the eletromagnetic induction law");
+        System.out.println("III: dE = - dB/dt -> a magnet can generate an electric curent through a wire" );
+        System.out.println("IV: dH = dD/dt + J -> an electric current through a wire will generate a magnetic field");
     }
 
 
