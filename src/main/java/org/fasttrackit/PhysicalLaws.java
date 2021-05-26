@@ -28,6 +28,7 @@ public class PhysicalLaws implements PhysicsMethodInterface {
         System.out.println("Choose an Maxwell equation (1, 2, 3 or 4) :");
         n = scanner.nextInt();
         MaxwellLaw(n);
+        MaxPlanck();
 
     }
 
@@ -115,9 +116,25 @@ public class PhysicalLaws implements PhysicsMethodInterface {
         if(n==2)
             System.out.println("II- Gauss law in magnetism: dB = 0 -> the shape of the magnetic field is always an closed loop");
         if (n==3 || n==4)
+        {
             System.out.println("III and IV laws are related, they both refer to the eletromagnetic induction law");
         System.out.println("III: dE = - dB/dt -> a magnet can generate an electric curent through a wire" );
         System.out.println("IV: dH = dD/dt + J -> an electric current through a wire will generate a magnetic field");
+        }
+    }
+
+    public void MaxPlanck()
+    {
+        double frequency;
+        double energy;
+        final double planckconstant = 6.626 * 0.00000000000000000000000000000001; // Joule * Hertz^-1
+        System.out.println(" ");
+        System.out.println("Choose the frequency of the photon: ");
+        frequency = scanner.nextDouble();
+
+        energy = planckconstant * frequency;
+        System.out.println("The energy of the photon is: " + energy + " Joule");
+
     }
 
 

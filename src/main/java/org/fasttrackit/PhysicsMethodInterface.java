@@ -7,6 +7,7 @@ public interface PhysicsMethodInterface {
     void Braggslaw();
     void Faradayslaw();
     void MaxwellLaw(int n);
+    void MaxPlanck();
 
 
 }
